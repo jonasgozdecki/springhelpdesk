@@ -19,7 +19,6 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import com.app.helpdesk.api.security.jwt.JwtAuthenticationEntryPoint;
 import com.app.helpdesk.api.security.jwt.JwtAuthenticationTokenFilter;
 
-
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)

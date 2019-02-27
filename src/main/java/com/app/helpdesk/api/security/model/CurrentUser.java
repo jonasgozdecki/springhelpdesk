@@ -1,6 +1,6 @@
 package com.app.helpdesk.api.security.model;
 
-import com.app.helpdesk.api.entity.User;
+import com.app.helpdesk.api.security.entity.User;
 
 public class CurrentUser {
 	

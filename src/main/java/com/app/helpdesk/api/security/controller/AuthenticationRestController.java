@@ -16,12 +16,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.app.helpdesk.api.entity.User;
+import com.app.helpdesk.api.security.entity.User;
 import com.app.helpdesk.api.security.jwt.JwtAuthenticationRequest;
 import com.app.helpdesk.api.security.jwt.JwtTokenUtil;
 import com.app.helpdesk.api.security.model.CurrentUser;
 import com.app.helpdesk.api.service.UserService;
-
 
 @RestController
 @CrossOrigin(origins = "*")

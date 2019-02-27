@@ -1,4 +1,4 @@
-package com.app.helpdesk.api.entity;
+package com.jonas.helpdesk.api.security.entity;
 
 import java.util.Date;
 
@@ -6,22 +6,22 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.app.helpdesk.api.enums.StatusEnum;
+import com.jonas.helpdesk.api.security.enums.StatusEnum;
 
 @Document
 public class ChangeStatus {
 
 	@Id
 	private String id;
-	
+
 	@DBRef
 	private Ticket ticket;
-	
+
 	@DBRef
 	private User userChange;
-	
+
 	private Date dateChangeStatus;
-	
+
 	private StatusEnum status;
 
 	public String getId() {
@@ -39,6 +39,7 @@ public class ChangeStatus {
 	public void setTicket(Ticket ticket) {
 		this.ticket = ticket;
 	}
+
 
 	public User getUserChange() {
 		return userChange;
@@ -63,8 +64,5 @@ public class ChangeStatus {
 	public void setStatus(StatusEnum status) {
 		this.status = status;
 	}
-	
-	
-	
-	
+
 }

@@ -8,10 +8,8 @@ import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.app.helpdesk.api.entity.User;
-import com.app.helpdesk.api.enums.PriorityEnum;
-import com.app.helpdesk.api.enums.StatusEnum;
-
+import com.app.helpdesk.api.security.enums.PriorityEnum;
+import com.app.helpdesk.api.security.enums.StatusEnum;
 
 @Document
 public class Ticket {

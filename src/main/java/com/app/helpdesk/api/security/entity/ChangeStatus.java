@@ -6,9 +6,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.app.helpdesk.api.entity.Ticket;
-import com.app.helpdesk.api.entity.User;
-import com.app.helpdesk.api.enums.StatusEnum;
+import com.app.helpdesk.api.security.enums.StatusEnum;
 
 @Document
 public class ChangeStatus {

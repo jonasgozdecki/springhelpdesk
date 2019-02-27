@@ -1,7 +1,7 @@
-package com.app.helpdesk.api.enums;
+package com.jonas.helpdesk.api.security.enums;
 
 public enum ProfileEnum {
-	ROLE_AMIN,
+	ROLE_ADMIN,
 	ROLE_CUSTOMER,
 	ROLE_TECHNICIAN
 }

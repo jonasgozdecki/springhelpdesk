@@ -6,7 +6,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.app.helpdesk.api.entity.User;
+import com.app.helpdesk.api.security.entity.User;
 import com.app.helpdesk.api.security.jwt.JwtUserFactory;
 import com.app.helpdesk.api.service.UserService;
 
